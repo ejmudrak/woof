@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Creepster|Poppins:300,400,500,600');
+
+.woof-display {
+  color: #fff;
+  font-family: 'Creepster', serif;
+  font-size: 8.5em;
+  width: 100%;
+  text-align: center;
+  margin-top: 35vh;
+}
+
+.top-background {
+  height: 100vh;
+
+  background:
+  linear-gradient(
+    rgba(0, 0, 255, 0.5),
+    rgba(252, 64, 168, 0.5) 
+  ),
+  url('../img/woof1-bw.jpg');
+
+  background-color: #ffffff;   
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.dark-background {
+  height: 80vh;
+
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.75),
+    rgba(23, 43, 77, 1)
+  ),
+  url('../img/woof3-bw.jpg');
+
+  background-color: #ffffff;   
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center top;
+}
+
+.top-gutter {
+  margin-top: 22vh;
+}
+
+.social-icon svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: #fff;
+  margin-left: -20px;
+}
+
+.accent-text {
+  color: #fb3a64;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.translucent-text {
+  color: rgb(255, 255, 255, 0.45);
+}
+
+.bold-text {
+  font-family: 'Poppins', serif;
+  font-weight: 600;
+}
+
+.regular-text {
+  font-family: 'Poppins', serif;
+  font-weight: 400;
+}
+
+/* Responsive */
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
