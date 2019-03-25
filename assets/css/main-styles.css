@@ -5,8 +5,6 @@
   font-family: 'Creepster', serif;
   font-size: 8.5em;
   width: 100%;
-  text-align: center;
-  margin-top: 35vh;
 }
 
 .top-background {
@@ -76,6 +74,12 @@
 .regular-text {
   font-family: 'Poppins', serif;
   font-weight: 400;
+}
+
+.soundcloud {
+  padding-top: 45px;
+  display: block;
+  margin: auto;
 }
 
 /* Responsive */
