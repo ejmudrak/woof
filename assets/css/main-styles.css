@@ -76,10 +76,17 @@
   font-weight: 400;
 }
 
-.soundcloud {
-  padding-top: 45px;
+.iframe {
   display: block;
   margin: auto;
+}
+
+.soundcloud {
+  padding-top: 45px;
+}
+
+.youtube {
+  padding-top: 35px;
   padding-bottom: 30px;
 }
 
@@ -90,28 +97,28 @@ html {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 300px) { 
-  .soundcloud { 
+  .iframe { 
     width: 95%;
   }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-  .soundcloud { 
+  .iframe { 
     width: 85%;
   }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-  .soundcloud { 
+  .iframe { 
     width: 75%;
   }
  }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-  .soundcloud { 
+  .iframe { 
     width: 65%;
   }
 }
@@ -121,7 +128,7 @@ html {
     font-size: 1.2rem;
   }
 
-  .soundcloud { 
+  .iframe { 
     width: 95%;
   }
 }
