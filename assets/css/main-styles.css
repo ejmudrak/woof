@@ -26,7 +26,7 @@
 }
 
 .dark-background {
-  height: 80vh;
+  height: 100%;
 
   background:
   linear-gradient(
@@ -80,6 +80,7 @@
   padding-top: 45px;
   display: block;
   margin: auto;
+  padding-bottom: 30px;
 }
 
 /* Responsive */
@@ -87,9 +88,41 @@ html {
   font-size: 1rem;
 }
 
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 300px) { 
+  .soundcloud { 
+    width: 95%;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .soundcloud { 
+    width: 85%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .soundcloud { 
+    width: 75%;
+  }
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  .soundcloud { 
+    width: 65%;
+  }
+}
+
 @include media-breakpoint-up(sm) {
   html {
     font-size: 1.2rem;
+  }
+
+  .soundcloud { 
+    width: 95%;
   }
 }
 
